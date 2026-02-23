@@ -52,7 +52,23 @@ The practical frequency closely matches the theoretical frequency.
 •	Used in clock generation, LED flashing, and tone generation.
 ## Viva Questions
 1.	What are the operating modes of 555 timer?
+
+Ans:Monostable, Astable, and Bistable.
+
 2.	What are the threshold levels in astable mode?
+
+Ans:Upper threshold = 2/3 Vcc
+    Lower threshold = 1/3 Vcc
+
 3.	Write the frequency formula.
+
+Ans: 𝑓=1.44/(R1 + 2R2)C
+
 4.	What is duty cycle?
+
+Ans: D= (R1 + R2 /R1 + R2) x 100%
+
 5.	What happens if R2 increases?
+
+Ans: Increases the time period (T), hence lowers frequency.
+     Duty cycle also increases (output stays high longer).
